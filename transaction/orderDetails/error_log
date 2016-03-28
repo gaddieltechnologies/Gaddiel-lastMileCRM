@@ -1,0 +1,15 @@
+[21-Dec-2014 22:41:07 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CLIENT_EMAIL_ID' in 'field list'' in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/orderDetails/addOrderDetails.php:319
+Stack trace:
+#0 /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/orderDetails/addOrderDetails.php(319): PDOStatement->execute()
+#1 {main}
+  thrown in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/orderDetails/addOrderDetails.php on line 319
+[21-Dec-2014 22:42:38 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CLIENT_EMAIL_ID' in 'field list'' in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/orderDetails/addOrderDetails.php:319
+Stack trace:
+#0 /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/orderDetails/addOrderDetails.php(319): PDOStatement->execute()
+#1 {main}
+  thrown in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/orderDetails/addOrderDetails.php on line 319
+[21-Dec-2014 22:47:08 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CLIENT_EMAIL_ID' in 'field list'' in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/orderDetails/addOrderDetails.php:319
+Stack trace:
+#0 /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/orderDetails/addOrderDetails.php(319): PDOStatement->execute()
+#1 {main}
+  thrown in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/orderDetails/addOrderDetails.php on line 319

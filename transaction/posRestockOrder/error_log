@@ -1,0 +1,8 @@
+[21-Dec-2014 23:39:26 America/Chicago] PHP Notice:  Undefined index: EMP_NAME in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/posRestockOrder/addPosRestockOrder.php on line 303
+[21-Dec-2014 23:48:38 America/Chicago] PHP Notice:  Undefined index: EMP_NAME in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/posRestockOrder/addPosRestockOrder.php on line 303
+[22-Dec-2014 00:47:47 America/Chicago] PHP Notice:  Undefined index: EMP_NAME in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/posRestockOrder/addPosRestockOrder.php on line 303
+[22-Dec-2014 00:47:49 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gadfort_lastmilemcrm`.`POS_RESTOCK_ORDER`, CONSTRAINT `XFK_POS_CLIENT_ID` FOREIGN KEY (`CLIENT_ID`) REFERENCES `CLIENT_DETAILS` (`ID`))' in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/posRestockOrder/addPosRestockOrder.php:405
+Stack trace:
+#0 /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/posRestockOrder/addPosRestockOrder.php(405): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/gadfort/public_html/lastmilecrm/lastMileCRM/transaction/posRestockOrder/addPosRestockOrder.php on line 405

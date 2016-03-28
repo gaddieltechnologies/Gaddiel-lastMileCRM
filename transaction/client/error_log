@@ -1,0 +1,1 @@
+[19-Dec-2014 08:49:28 America/Chicago] PHP Notice:  A session had already been started - ignoring session_start() in /home/gadfort/public_html/lastmilecrm/lastMileCRM/header.php on line 2
